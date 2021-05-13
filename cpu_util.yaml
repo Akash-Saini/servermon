@@ -1,6 +1,6 @@
 --- 
-- hosts: all 
-  gather_facts: true 
+- hosts: hosts 
+  gather_facts: false 
  
   tasks: 
   - name: Get CPU usage 
